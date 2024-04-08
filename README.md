@@ -1,13 +1,13 @@
 # Walk-Run
 #Walk vs Run Classification using Sensor Data from iPhone 5c
 
-#Overview
+**Overview**
 
 This repository contains code for a classification task to differentiate between walking and running activities using sensor data collected from an iPhone 5c. The dataset consists of accelerometer and gyroscope readings from the device, along with metadata such as the date, time, user, and wrist where the device was placed.
 
 The classification task involves predicting the activity type (walking or running) based on the sensor data and other features provided.
 
-#Dataset
+**Dataset**
 
 The dataset is stored in a CSV file named walkrun.csv, containing the following columns:
 
@@ -35,7 +35,7 @@ Decision Tree
 Random Forest
 The performance of each model is evaluated using accuracy score, confusion matrix, and classification report.
 
-#Results
+**Results**
 
 The accuracy scores achieved by each model are as follows:
 
@@ -45,12 +45,12 @@ Decision Tree: 99.57%
 Random Forest: 99.83%
 Based on the results, the Random Forest model demonstrates the highest accuracy in classifying walking and running activities.
 
-#Requirements
+**Requirements**
 
 Python 3.x
 Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 
-#Usage
+**Usage**
 
 Clone the repository:
 git clone <repository-url>
