@@ -1,5 +1,5 @@
 # Walk-Run
-#Walk vs Run Classification using Sensor Data from iPhone 5c
+Walk vs Run Classification using Sensor Data from iPhone 5c
 
 **Overview**
 
@@ -58,4 +58,4 @@ Navigate to the project directory:
 cd walk-vs-run-classification
 Install the required libraries:
 pip install -r requirements.txt
-Run the Jupyter Notebook walk_run_classification.ipynb to execute the code and explore the analysis.
+Run the Jupyter Notebook walk_run_classification.ipynb to execute the code and explore the analysis
